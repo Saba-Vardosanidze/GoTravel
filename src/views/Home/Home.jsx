@@ -1,0 +1,34 @@
+const Home = () => {
+  return (
+    <div>
+      {/*Header*/}
+      {/*Header component import here*/}
+
+      {/*Start Your Memorable*/}
+      {/*Start Your Memorable component import here*/}
+
+      {/*sweet memories*/}
+      {/*sweet memories component import here*/}
+
+      {/*Travel offer from us*/}
+      {/*Travel offer component import here*/}
+
+      {/*Latest news from us*/}
+      {/*Latest news from us component import here*/}
+
+      {/*Explore more*/}
+      {/*Explore more component import here*/}
+
+      {/*registration*/}
+      {/*registration component import here*/}
+
+      {/*Vacationers */}
+      {/*Vacationers component import here*/}
+
+      {/*Footer*/}
+      {/*How it Works component import here*/}
+    </div>
+  );
+};
+
+export default Home;
