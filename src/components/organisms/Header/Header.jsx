@@ -27,7 +27,7 @@ const Header = () => {
       </Link>
 
       <div className="hidden lg:flex">
-        <ul className="lg:flex lg:items-center lg:gap-[40px]">
+        <ul className="lg:flex lg:items-center lg:gap-[40px] font-medium">
           <li className="text-[var(--paragraph-color)] hover:text-[var(--color-black)] transition duration-300 ease-in-out cursor-pointer">
             <Link to="/">Home</Link>
           </li>
@@ -59,7 +59,7 @@ const Header = () => {
             </div>
             <div>
               {isServicesOpen ? (
-                <div className="absolute flex flex-col justify-center bg-[var(--color-white)] shadow-[2px_4px_30px_rgba(0,0,0,0.1)] mt-[13px] pl-[32px] rounded-[16px] w-[100%] max-w-[276px] min-h-[212px]">
+                <div className="absolute flex flex-col justify-center bg-[var(--color-white)] shadow-[2px_4px_30px_rgba(0,0,0,0.1)] mt-[13px] pl-[32px] rounded-[16px] w-[100%] max-w-[276px] min-h-[212px] font-medium">
                   <ul className="flex flex-col lg:gap-[32px]">
                     <li className="text-[var(--paragraph-color)] hover:text-[var(--color-black)] transition duration-300 ease-in-out cursor-pointer">
                       Culinary Tours
@@ -102,7 +102,7 @@ const Header = () => {
               />
             </div>
             {isPagesOpen ? (
-              <div className="absolute flex flex-col justify-center bg-[var(--color-white)] shadow-[2px_4px_30px_rgba(0,0,0,0.1)] mt-[13px] pl-[32px] rounded-[16px] w-[100%] max-w-[255px] min-h-[268px]">
+              <div className="absolute flex flex-col justify-center bg-[var(--color-white)] shadow-[2px_4px_30px_rgba(0,0,0,0.1)] mt-[13px] pl-[32px] rounded-[16px] w-[100%] max-w-[255px] min-h-[268px] font-medium">
                 <ul className="flex flex-col lg:gap-[32px]">
                   <li className="text-[var(--paragraph-color)] hover:text-[var(--color-black)] transition duration-300 ease-in-out cursor-pointer">
                     Privacy Policy
@@ -137,7 +137,7 @@ const Header = () => {
         <button className="hidden lg:flex cursor-pointer">
           <img src="./images/svg/notification.svg" alt="notificationButton" />
         </button>
-        <button className="hidden lg:flex justify-center items-center bg-[var(--button-color)] hover:bg-[var(--button-hover)] rounded-[10px] w-[137px] h-[52px] text-[var(--color-white)] transition duration-300 ease-in-out cursor-pointer">
+        <button className="hidden lg:flex justify-center items-center bg-[var(--button-color)] hover:bg-[var(--button-hover)] rounded-[10px] w-[137px] h-[52px] font-medium text-[var(--color-white)] transition duration-300 ease-in-out cursor-pointer">
           Join Now
         </button>
       </div>
