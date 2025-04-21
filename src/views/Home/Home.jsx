@@ -1,9 +1,6 @@
 const Home = () => {
   return (
     <div>
-      {/*Header*/}
-      {/*Header component import here*/}
-
       {/*Start Your Memorable*/}
       {/*Start Your Memorable component import here*/}
 
