@@ -1,5 +1,3 @@
-// data.js
-
 const listings = [
   {
     img: "./images/png/exploreCard1",

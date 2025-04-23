@@ -1,9 +1,7 @@
-import listings from "./data";
+import listings from "./ExploreMoreData";
+import ExploreCard from "../../organisms/ExploreMore/ExploreCard";
 
 const ExploreMore = () => {
-  {
-    listings.map((item, index) => {});
-  }
   return (
     <div className="flex flex-col m-auto pr-[16px] pl-[16px] w-[362px] h-[3000px]">
       <div className="embla">
@@ -29,27 +27,16 @@ const ExploreMore = () => {
           </button>
         </div>
       </div>
-      <div className="relative fotoContainer">
-        <img className="mt-16" src="./images/png/exploreCard1.png" alt="" />
-        <div className="top-[88px] right-[20px] absolute flex justify-center items-center gap-2 bg-white rounded-[6px] w-[76px] h-[33px] scoreContainer">
-          <img className="w-4 h-4" src="./images/svg/yelloStar.svg" alt="" />
-          <p>4</p>
-        </div>
-      </div>
-      <div className="flex justify-between mt-[26px] w-[328px] h-[84px] descriptionContainer">
-        <div className="nameAndlocation">
-          <h3 className="font-[600] text-[24px]">Kudahuvadhoo</h3>
-          <div className="flex gap-1 mt-[14px] text-[var(--paragraph-color)] location">
-            <img src="./images/svg/location.svg" alt="" />
-            <p>Central Province, Maldives</p>
-          </div>
-        </div>
-        <div className="price">
-          <p className="text-[24px]">
-            $127/ <span className="text-[20px]"> pax</span>
-          </p>
-        </div>
-      </div>
+      {listings.map((item, index) => {
+        <ExploreCard
+          key={index}
+          img={item.img}
+          score={item.score}
+          title={item.title}
+          location={item.location}
+          price={item.price}
+        ></ExploreCard>;
+      })}
     </div>
   );
 };
