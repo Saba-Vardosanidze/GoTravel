@@ -1,5 +1,4 @@
-import OfferService from "./organisms/OfferService/OfferService";
-import "./global.css";
+import OfferService from "../../components/organisms/OfferService/OfferService";
 const Home = () => {
   return (
     <div>
@@ -8,7 +7,6 @@ const Home = () => {
 
       {/*sweet memories*/}
       {/*sweet memories component import here*/}
-
       <OfferService />
       {/*Travel offer component import here*/}
 
