@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* CSS VARIABLES */
+:root {
+  /* Colors */
+  --color-white: white;
+  --color-black: #000000;
+  --button-color: #18abc6;
+  --button-hover: #4dbfd3;
+  --paragraph-color: #8d8d8d;
+
+  /* Typography */
+  --font-family-Poppins: "Poppins", Arial;
+}
+body {
+  font-family: var(--font-family-manrope);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./Poppins-Regular.ttf");
+}
