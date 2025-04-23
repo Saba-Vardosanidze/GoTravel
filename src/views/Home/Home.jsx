@@ -1,3 +1,5 @@
+import OfferService from "./organisms/OfferService/OfferService";
+import "./global.css";
 const Home = () => {
   return (
     <div>
@@ -7,7 +9,7 @@ const Home = () => {
       {/*sweet memories*/}
       {/*sweet memories component import here*/}
 
-      {/*Travel offer from us*/}
+      <OfferService />
       {/*Travel offer component import here*/}
 
       {/*Latest news from us*/}
