@@ -1,3 +1,4 @@
+import CompanyOffers from "../../components/organisms/CompanyOffers/CompanyOffers";
 import OfferService from "../../components/organisms/OfferService/OfferService";
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
       <OfferService />
       {/*Travel offer component import here*/}
 
-      {/*Latest news from us*/}
+      <CompanyOffers />
       {/*Latest news from us component import here*/}
 
       {/*Explore more*/}

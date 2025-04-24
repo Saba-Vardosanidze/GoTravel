@@ -3,6 +3,8 @@
 /* CSS VARIABLES */
 :root {
   /* Colors */
+  --border-color: #b3b3b3;
+  --offerService-bg: #eff9fb;
   --color-white: white;
   --color-black: #000000;
   --button-color: #18abc6;
