@@ -1,11 +1,12 @@
 import OfferService from "../../components/organisms/OfferService/OfferService";
+import SweetMemories from "../../components/SweetMemories/SweetMemories";
 const Home = () => {
   return (
     <div>
       {/*Start Your Memorable*/}
       {/*Start Your Memorable component import here*/}
 
-      {/*sweet memories*/}
+      <SweetMemories />
       {/*sweet memories component import here*/}
       <OfferService />
       {/*Travel offer component import here*/}
