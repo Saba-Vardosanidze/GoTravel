@@ -13,14 +13,53 @@ const ExploreMore = () => {
        
 
 <div>
-<div className="flex flex-col gap-[26px]">
+<div className="flex flex-col gap-[26px] mb-[64px]">
 <img src="./src/assets/png/maldives.png" className="justify-center items-center m-auto object-cover" alt="Kudahuvadhoo" />
-<div className="flex gap-[78px]"><h2 className="flex font-semibold text-[24px]">Kudahuvadhoo</h2>
-<p className="flex">$127/Pax</p></div>
-<p className="flex gap-[7px]"><img src="./src/assets/locatione.svg" alt="location" /> Central Province, Maldives </p> 
+<div className="flex gap-[95px] ml-[15px]"><h2 className="flex font-semibold text-[24px]">Kudahuvadhoo</h2>
+<p className="flex text-[24px]">$127/<span className="mt-[10px] text-[16px]" >Pax</span></p></div>
+<p className="flex gap-[7px] ml-[15px] text-gray-700"><img src="./src/assets/locatione.svg" alt="location" /> Central Province, Maldives </p> 
 
 </div>
 
+<div className="flex flex-col gap-[26px] mb-[64px]">
+<img src="./src/assets/png/reef.png" className="justify-center items-center m-auto object-cover" alt="reef" />
+<div className="flex gap-[75px] ml-[15px]"><h2 className="flex font-semibold text-[24px]">Great Barrier Reef</h2>
+<p className="flex text-[24px]">$149/<span className="mt-[10px] text-[16px]" >Pax</span></p></div>
+<p className="flex gap-[7px] ml-[15px] text-gray-700"><img src="./src/assets/locatione.svg" alt="location" /> Great Barrier Reef</p> 
+
+</div>
+
+<div className="flex flex-col gap-[26px] mb-[64px]">
+<img src="./src/assets/png/soneva.png" className="justify-center items-center m-auto object-cover" alt="makunudhoo" />
+<div className="flex gap-[110px] ml-[15px]"><h2 className="flex font-semibold text-[24px]">Soneva Secret</h2>
+<p className="flex text-[24px]">$152/<span className="mt-[10px] text-[16px]" >Pax</span></p></div>
+<p className="flex gap-[7px] ml-[15px] text-gray-700"><img src="./src/assets/locatione.svg" alt="location" /> Makunudhoo, Maldives </p> 
+
+</div>
+
+<div className="flex flex-col gap-[26px] mb-[64px]">
+<img src="./src/assets/png/greece.png" className="justify-center items-center m-auto object-cover" alt="greece" />
+<div className="flex gap-[120px] ml-[15px]"><h2 className="flex font-semibold text-[24px]">Navagio Bay</h2>
+<p className="flex text-[24px]">$137/<span className="mt-[10px] text-[16px]" >Pax</span></p></div>
+<p className="flex gap-[7px] ml-[15px] text-gray-700"><img src="./src/assets/locatione.svg" alt="location" /> Zakynthos, Greece</p> 
+
+</div>
+
+<div className="flex flex-col gap-[26px] mb-[64px]">
+<img src="./src/assets/png/carribean.png" className="justify-center items-center m-auto object-cover" alt="caribbean " />
+<div className="flex gap-[135px] ml-[15px]"><h2 className="flex font-semibold text-[24px]">Grand Anse</h2>
+<p className="flex text-[24px]">$102/<span className="mt-[10px] text-[16px]" >Pax</span></p></div>
+<p className="flex gap-[7px] ml-[15px] text-gray-700"><img src="./src/assets/locatione.svg" alt="location" /> Grenada, Caribbean  </p> 
+
+</div>
+
+<div className="flex flex-col gap-[26px]">
+<img src="./src/assets/png/zakynthos.png" className="justify-center items-center m-auto object-cover" alt="Zakynthos" />
+<div className="flex gap-[145px] ml-[15px]"><h2 className="flex font-semibold text-[24px]">Zakynthos</h2>
+<p className="flex text-[24px]">$191/<span className="mt-[10px] text-[16px]" >Pax</span></p></div>
+<p className="flex gap-[7px] ml-[15px] text-gray-700"><img src="./src/assets/locatione.svg" alt="location" /> Keri, Greece </p> 
+
+</div>
 
 
 
