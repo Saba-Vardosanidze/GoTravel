@@ -1,4 +1,5 @@
 import ExploreMore from "../../components/organisms/ExploreMore/ExploreMore";
+import Footer from "../../components/organisms/Footer/Footer";
 import OfferService from "../../components/organisms/OfferService/OfferService";
 const Home = () => {
   return (
@@ -23,7 +24,7 @@ const Home = () => {
       {/*Vacationers */}
       {/*Vacationers component import here*/}
 
-      {/*Footer*/}
+      <Footer />
       {/*How it Works component import here*/}
     </div>
   );
