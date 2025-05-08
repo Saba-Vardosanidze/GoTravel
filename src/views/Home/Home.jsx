@@ -1,5 +1,6 @@
 import ExploreMore from "../../components/organisms/ExploreMore/ExploreMore";
 import OfferService from "../../components/organisms/OfferService/OfferService";
+import Vacationers from "../../components/organisms/Vacationers/Vacationers";
 const Home = () => {
   return (
     <div>
@@ -21,7 +22,7 @@ const Home = () => {
       {/*registration component import here*/}
 
       {/*Vacationers */}
-      {/*Vacationers component import here*/}
+      <Vacationers />
 
       {/*Footer*/}
       {/*How it Works component import here*/}
