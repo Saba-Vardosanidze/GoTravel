@@ -1,5 +1,6 @@
-import CompanyOffers from "../../components/organisms/CompanyOffers/CompanyOffers";
+
 import OfferService from "../../components/organisms/OfferService/OfferService";
+import Vacationers from "../../components/organisms/Vacationers/Vacationers";
 const Home = () => {
   return (
     <div>
@@ -8,20 +9,20 @@ const Home = () => {
 
       {/*sweet memories*/}
       {/*sweet memories component import here*/}
-      <OfferService />
+      {/* <OfferService /> */}
       {/*Travel offer component import here*/}
 
       <CompanyOffers />
       {/*Latest news from us component import here*/}
 
-      {/*Explore more*/}
+      <ExploreMore />
       {/*Explore more component import here*/}
 
       {/*registration*/}
       {/*registration component import here*/}
 
       {/*Vacationers */}
-      {/*Vacationers component import here*/}
+      <Vacationers />
 
       {/*Footer*/}
       {/*How it Works component import here*/}
