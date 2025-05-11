@@ -1,4 +1,4 @@
-import ExploreMore from "../../components/organisms/ExploreMore/ExploreMore";
+
 import OfferService from "../../components/organisms/OfferService/OfferService";
 import Vacationers from "../../components/organisms/Vacationers/Vacationers";
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
       {/* <OfferService /> */}
       {/*Travel offer component import here*/}
 
-      {/*Latest news from us*/}
+      <CompanyOffers />
       {/*Latest news from us component import here*/}
 
       <ExploreMore />
