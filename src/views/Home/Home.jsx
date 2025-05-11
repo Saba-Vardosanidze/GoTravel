@@ -1,5 +1,6 @@
 import CompanyOffers from "../../components/organisms/CompanyOffers/CompanyOffers";
 import ExploreMore from "../../components/organisms/ExploreMore/ExploreMore";
+import Login from "../../components/organisms/Login/Login";
 import Vacationers from "../../components/organisms/Vacationers/Vacationers";
 const Home = () => {
   return (
@@ -22,6 +23,8 @@ const Home = () => {
 
       {/*Vacationers */}
       <Vacationers />
+
+      <Login />
 
       {/*Footer*/}
       {/*How it Works component import here*/}
