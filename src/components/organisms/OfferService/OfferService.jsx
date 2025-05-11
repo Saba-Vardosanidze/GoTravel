@@ -6,7 +6,7 @@ const OfferService = () => {
           <img src="./src/assets/box.svg" alt="package" />
 
           <h2 className="font-bold text-[28px]">Customized Packages</h2>
-
+{/* //asasdda */}
           <p className="max-w-[300px] lg:max-w-[300px] text-[var(--paragraph-color)] leading-[38px]">
             Explore our range of customizable travel packages tailored to your
             budget and preferences.
