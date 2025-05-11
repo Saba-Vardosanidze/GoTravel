@@ -8,16 +8,22 @@
   --color-white: white;
   --color-black: #000000;
   --button-color: #18abc6;
+  --buttonOpacityColor: #18abc607;
   --button-hover: #4dbfd3;
   --paragraph-color: #8d8d8d;
-
-  /* Typography */
-  --font-family-Poppins: "Poppins", Arial;
 }
 body {
-  font-family: var(--font-family-manrope);
+  font-family: "Poppins";
 }
+
 @font-face {
   font-family: "Poppins";
-  src: url("./Poppins-Regular.ttf");
+  src: url("/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+@layer utilities {
+  .font-popins {
+    font-family: "Poppins";
+  }
 }
