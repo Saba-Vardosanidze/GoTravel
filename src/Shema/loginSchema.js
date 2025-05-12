@@ -1,5 +1,5 @@
 import { z } from "zod";
-export const schema = z.object({
+export const loginSchema = z.object({
   username: z.string().min(4, "Username min 4 symbol"),
   email: z
     .string()

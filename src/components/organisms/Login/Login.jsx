@@ -1,10 +1,18 @@
+import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
-
+import { loginSchema } from "../../../Shema/loginSchema";
 const Login = () => {
   const {
     register,
+    handleSubmit,
+    setError,
     formState: { errors },
-  } = useForm();
+  } = useForm({
+    resolver: zodResolver(loginSchema),
+  });
+  const submit = () => {
+    submit(data);
+  };
 
   return (
     <div className="flex bg-[var(--offerService-bg)] m-auto w-full h-[840px]">
@@ -21,7 +29,10 @@ const Login = () => {
         </div>
         <div className="bg-[#B3B3B369] m-auto w-[1px] h-[324px]"></div>
         <div className="flex items-center gap-8">
-          <form className="flex flex-col w-[600px] h-[312px]">
+          <form
+            onSubmit={handleSubmit(submit)}
+            className="flex flex-col w-[600px] h-[312px]"
+          >
             <h2 className="mb-4 font-bold text-2xl">Register</h2>
             {/* name */}
             <div className="mb-4">
@@ -31,6 +42,7 @@ const Login = () => {
               >
                 <p className="font-600">Full Name</p>
               </label>
+
               <input
                 className="bg-[var(--color-white)] shadow px-3 py-2 border border-none rounded rounded[8px] outline-none w-full text-gray-700"
                 type="text"
@@ -38,6 +50,7 @@ const Login = () => {
                 id="firstName"
                 {...register("username")}
               />
+              <p>{errors.username?.message}</p>
             </div>
 
             {/* email */}
@@ -55,6 +68,7 @@ const Login = () => {
                 id="email"
                 {...register("email")}
               />
+              <p>{errors.password?.message}</p>
             </div>
             <div className="flex justify-between mt-16 submitAndAgree">
               <div className="flex justify-center items-center gap-1">
