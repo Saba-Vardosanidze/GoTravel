@@ -50,7 +50,9 @@ const Login = () => {
                 id="firstName"
                 {...register("username")}
               />
-              <p>{errors.username?.message}</p>
+              <p className="text-[var(--empty-input)]">
+                {errors.username?.message}
+              </p>
             </div>
 
             {/* email */}
@@ -68,9 +70,11 @@ const Login = () => {
                 id="email"
                 {...register("email")}
               />
-              <p>{errors.password?.message}</p>
+              <p className="text-[var(--empty-input)]">
+                {errors.password?.message}
+              </p>
             </div>
-            <div className="flex justify-between mt-16 submitAndAgree">
+            <div className="flex justify-between mt-9 submitAndAgree">
               <div className="flex justify-center items-center gap-1">
                 <input type="checkbox" />
                 <p className="text-[#797979]">
@@ -79,6 +83,7 @@ const Login = () => {
               </div>
 
               <button
+                onClick={() => submit}
                 className="bg-[#18C692] px-4 py-2 rounded-[10px] w-[153px] text-white cursor-pointer"
                 type="submit"
               >
