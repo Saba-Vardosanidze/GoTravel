@@ -1,25 +1,24 @@
 const CompanyOffers = () => {
   return (
-    <div className="bg-white py-20">
-      <div className="flex flex-col gap-[64px] lg:gap-[136px] mx-auto px-4 max-w-[1200px] font-[poppins]">
-        <h2 className="mb-[64px] font-bold text-[32px] lg:text-[52px] text-center">
+    <div className="bg-white">
+      <div className="flex flex-col gap-[64px] mx-auto px-4 w-full max-w-[1556px] font-[poppins]">
+        <h2 className="lg:mb-[100px] font-bold text-[32px] lg:text-[52px] text-center">
           Latest news from us
         </h2>
-
-        <div className="flex lg:flex-row flex-col gap-[64px] mb-[80px]">
+        <div className="flex lg:flex-row flex-col lg:justify-between gap-[64px] mb-[80px]">
           <img
-            className="rounded-[20px] w-full lg:w-[400px] h-[361px] object-cover"
+            className="rounded-[20px] w-full max-w-[361px] lg:max-w-[560px] max-h-[361px] lg:max-h-[432px] object-cover"
             src="/images/png/island.png"
             alt="island"
           />
-          <div className="flex flex-col justify-center">
-            <p className="mb-[10px] text-[var(--paragraph-color)] lg:text-[20px]">
+          <div className="flex flex-col justify-center lg:gap-[18px]">
+            <p className="text-[var(--paragraph-color)] lg:text-[20px]">
               Nov 19, 2024
             </p>
-            <h2 className="mb-4 font-semibold text-[28px] lg:text-[44px]">
+            <h2 className="font-medium text-[28px] lg:text-[44px]">
               Stories from Around the Globe
             </h2>
-            <p className="mb-[20px] lg:max-w-[500px] text-[var(--paragraph-color)] lg:text-[18px]">
+            <p className="lg:max-w-[711px] text-[var(--paragraph-color)] lg:text-[18px] leading-[48px] lg:leading-[54px]">
               From the bustling streets of Tokyo to the serene landscapes of
               Patagonia, each story offers a glimpse into the diverse cultures,
               breathtaking landscapes, and unforgettable encounters.
@@ -29,9 +28,9 @@ const CompanyOffers = () => {
             </button>
           </div>
         </div>
-        <div className="flex lg:flex-row flex-col gap-[64px]">
+        <div className="flex lg:flex-row flex-col lg:justify-between gap-[64px]">
           <img
-            className="rounded-lg w-full lg:w-[400px] h-[400px] object-cover"
+            className="rounded-[20px] w-full max-w-[361px] lg:max-w-[560px] max-h-[361px] lg:max-h-[432px] object-cover"
             src="/images/png/bali.png"
             alt="bali"
           />
@@ -39,10 +38,10 @@ const CompanyOffers = () => {
             <p className="mb-[10px] text-[var(--paragraph-color)] lg:text-[20px]">
               Dec 25, 2024
             </p>
-            <h2 className="mb-[20px] font-bold text-[32px] lg:text-[52px] text-center">
+            <h2 className="mb-[20px] font-bold text-[32px] lg:text-[52px]">
               Exploring Hidden Gems
             </h2>
-            <p className="mb-[20px] lg:max-w-[500px] text-[var(--paragraph-color)] lg:text-[18px]">
+            <p className="mb-[20px] lg:max-w-[711px] text-[var(--paragraph-color)] lg:text-[18px] leading-[48px] lg:leading-[54px]">
               Dive into our latest blog post as we uncover the enchanting allure
               of off the beaten path destinations. From secluded beaches to
               quaint villages, we guide you on a journey to discover the hidden
