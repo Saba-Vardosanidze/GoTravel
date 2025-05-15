@@ -1,17 +1,16 @@
-import React from "react";
-
 const Footer = () => {
   return (
-    <footer className="bg-[#18ABC6] p-[100px_25px] flex flex-col gap-12 md:flex-row md:items-center ">
+    <footer className="flex md:flex-row flex-col md:items-center gap-12 bg-[#18ABC6] p-[100px_25px]">
+      <div className="flex m-auto w-full max-w-[1440px]">
       <div className="flex flex-col gap-10 md:w-[25%]">
-        <div className="bg-white p-[10px_11px] w-[54px] rounded-[7px] shadow-[-10px_-8px_5px_2px] shadow-[#3391aa]">
+        <div className="bg-white shadow-[-10px_-8px_5px_2px] shadow-[#3391aa] p-[10px_11px] rounded-[7px] w-[54px]">
           <img src="./images/svg/G.svg" alt="G" />
         </div>
         <div className="space-y-5">
           <h2 className="font-bold text-[20px] text-white">
             GoTravel - Your Vacation Awaits
           </h2>
-          <p className="text-white font-light">
+          <p className="font-light text-white">
             GoTravel creates vacations you’ll remember. Simply pick your desired
             location, and we do the rest. An all inclusive getaway that leaves
             you relaxing, not stressing.
@@ -23,10 +22,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="space-y-15 md:w-[75%] flex flex-col md:flex-row md:justify-around md:space-y-0">
+      <div className="flex md:flex-row flex-col md:justify-around space-y-15 md:space-y-0 md:w-[75%]">
         <div className="flex flex-col gap-7">
-          <h5 className="text-[20px] text-white font-bold">Menu</h5>
-          <ul className="text-white space-y-2">
+          <h5 className="font-bold text-[20px] text-white">Menu</h5>
+          <ul className="space-y-2 text-white">
             <li className="cursor-pointer">Blog</li>
             <li className="cursor-pointer">Explore</li>
             <li className="cursor-pointer">VIP Program</li>
@@ -34,8 +33,8 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex flex-col gap-7">
-          <h5 className="text-[20px] text-white font-bold">Services</h5>
-          <ul className="text-white space-y-2">
+          <h5 className="font-bold text-[20px] text-white">Services</h5>
+          <ul className="space-y-2 text-white">
             <li className="cursor-pointer">Culinary</li>
             <li className="cursor-pointer">Location</li>
             <li className="cursor-pointer">Destination</li>
@@ -43,8 +42,8 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex flex-col gap-7">
-          <h5 className="text-[20px] text-white font-bold">Extra</h5>
-          <ul className="text-white space-y-2">
+          <h5 className="font-bold text-[20px] text-white">Extra</h5>
+          <ul className="space-y-2 text-white">
             <li className="cursor-pointer">Privacy Policy</li>
             <li className="cursor-pointer">About Company</li>
             <li className="cursor-pointer">Payment Gateway</li>
@@ -52,10 +51,10 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex flex-col gap-7">
-          <h5 className="text-[20px] text-white font-bold">
+          <h5 className="font-bold text-[20px] text-white">
             Contact Information
           </h5>
-          <ul className="text-white space-y-2">
+          <ul className="space-y-2 text-white">
             <li className="flex items-center gap-2 cursor-pointer">
               <img src="./images/svg/Vector.svg" alt="" />
               <span>1 248 416 6573</span>
@@ -70,6 +69,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+      </div>
       </div>
     </footer>
   );
