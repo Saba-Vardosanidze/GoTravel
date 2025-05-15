@@ -63,7 +63,7 @@ const Header = () => {
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.3 }}
-                  className="absolute flex flex-col justify-center bg-[var(--color-white)] shadow-[2px_4px_30px_rgba(0,0,0,0.1)] mt-[13px] pl-[32px] rounded-[16px] w-[100%] max-w-[276px] min-h-[212px] font-medium"
+                  className="z-40 absolute flex flex-col justify-center bg-[var(--color-white)] shadow-[2px_4px_30px_rgba(0,0,0,0.1)] mt-[13px] pl-[32px] rounded-[16px] w-[100%] max-w-[276px] min-h-[212px] font-medium"
                 >
                   <ul className="flex flex-col lg:gap-[32px]">
                     <li className="text-[var(--paragraph-color)] hover:text-[var(--color-black)] transition duration-300 ease-in-out cursor-pointer">
@@ -111,7 +111,7 @@ const Header = () => {
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3 }}
-                className="absolute flex flex-col justify-center bg-[var(--color-white)] shadow-[2px_4px_30px_rgba(0,0,0,0.1)] mt-[13px] pl-[32px] rounded-[16px] w-[100%] max-w-[255px] min-h-[268px] font-medium"
+                className="z-40 absolute flex flex-col justify-center bg-[var(--color-white)] shadow-[2px_4px_30px_rgba(0,0,0,0.1)] mt-[13px] pl-[32px] rounded-[16px] w-[100%] max-w-[255px] min-h-[268px] font-medium"
               >
                 <ul className="flex flex-col lg:gap-[32px]">
                   <li className="text-[var(--paragraph-color)] hover:text-[var(--color-black)] transition duration-300 ease-in-out cursor-pointer">
