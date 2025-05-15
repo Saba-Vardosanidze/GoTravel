@@ -6,7 +6,8 @@ import HeroSection from "../../components/organisms/heroSection/HeroSection";
 import Vacationers from "../../components/organisms/Vacationers/Vacationers";
 const Home = () => {
   return (
-    <div>
+    <div className="flex flex-col min-h-[100dvh]">
+      <main className="flex-1">
       {/*Start Your Memorable*/}
       {/*Start Your Memorable component import here*/}
       <HeroSection />
@@ -21,11 +22,10 @@ const Home = () => {
       {/*registration component import here*/}
       {/*Vacationers */}
       {/*Vacationers component import here*/}
-
-      <Footer />
       <Vacationers />
+      </main>
       {/*Footer*/}
-      {/*How it Works component import here*/}
+      <Footer />
     </div>
   );
 };
