@@ -2,6 +2,7 @@ import CompanyOffers from "../../components/organisms/CompanyOffers/CompanyOffer
 import ExploreMore from "../../components/organisms/ExploreMore/ExploreMore";
 import Footer from "../../components/organisms/Footer/Footer";
 import OfferService from "../../components/organisms/OfferService/OfferService";
+import SweetMemories from "../../components/SweetMemories/SweetMemories";
 import HeroSection from "../../components/organisms/heroSection/HeroSection";
 import Vacationers from "../../components/organisms/Vacationers/Vacationers";
 const Home = () => {
@@ -10,6 +11,8 @@ const Home = () => {
       <main className="flex-1">
       {/*Start Your Memorable*/}
       {/*Start Your Memorable component import here*/}
+
+      <SweetMemories />
       <HeroSection />
       {/*sweet memories*/}
       {/*sweet memories component import here*/}
