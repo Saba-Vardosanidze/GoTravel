@@ -1,21 +1,21 @@
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
 const HeroSection = () => {
   return (
     <div className="flex justify-center m-auto mt-[48px] lg:mb-[144px] px-[16px] lg:px-[96px] w-full max-w-[1920px]">
       <div className="lg:relative flex flex-col w-full max-w-[1728px]">
         <div className="flex flex-col items-center bg-[url('/images/png/Hero%20Image.png')] bg-cover bg-center rounded-[28px] lg:rounded-[36px] w-full lg:max-w-[1727px] min-h-[452px] lg:min-h-[972px] overflow-hidden">
           <motion.p
-            initial={{ opacity: 0, y: -100 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.5 }}
+            initial={{opacity: 0, y: -100}}
+            animate={{opacity: 1, y: 0}}
+            transition={{duration: 1.5}}
             className="mt-[64px] lg:mt-[216px] mb-[12px] max-w-[313px] lg:max-w-[1159px] font-semibold text-[28px] text-[var(--color-white)] lg:text-[104px] text-center"
           >
             Start Your Memorable Journey Here
           </motion.p>
           <motion.p
-            initial={{ opacity: 0, y: -100 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 2 }}
+            initial={{opacity: 0, y: -100}}
+            animate={{opacity: 1, y: 0}}
+            transition={{duration: 2}}
             className="w-full max-w-[313px] lg:max-w-[849px] text-[var(--color-white)] lg:text-[28px] text-center"
           >
             Where unforgettable adventures await you.
@@ -37,7 +37,7 @@ const HeroSection = () => {
           </div>
           <div className="flex lg:flex-row flex-col items-center">
             <div className="flex justify-center items-center bg-[var(--buttonOpacityColor)] rounded-full w-[80px] h-[80px]">
-              <img src="/images/svg/Vector.svg" alt="booking" />
+              <img src="/images/svg/Booking.svg" alt="booking" />
             </div>
             <div className="flex flex-col items-center lg:items-start gap-[8px] lg:gap-[10px] mt-[24px] lg:mt-[0px] lg:ml-[56px]">
               <h2 className="lg:font-medium text-[20px] text-[var(--paragraph-color)] lg:text-[28px]">

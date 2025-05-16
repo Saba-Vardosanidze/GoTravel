@@ -1,6 +1,6 @@
 const CompanyOffers = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white lg:my-[144px] mb-[96px]">
       <div className="flex flex-col gap-[64px] mx-auto px-4 w-full max-w-[1556px] font-[poppins]">
         <h2 className="lg:mb-[100px] font-bold text-[32px] lg:text-[52px] text-center">
           Latest news from us

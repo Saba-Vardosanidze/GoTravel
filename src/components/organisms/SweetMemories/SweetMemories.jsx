@@ -1,6 +1,6 @@
 const SweetMemories = () => {
   return (
-    <div className="flex flex-col gap-8 mx-auto px-4 lg:px-8 w-full max-w-[1440px]">
+    <div className="flex flex-col gap-8 mx-auto mb-[96px] lg:mb-[144px] px-4 lg:px-8 w-full max-w-[1440px]">
       <div className="flex flex-col lg:items-start m-auto lg:text-left text-center">
         <h2 className="max-w-[5500px] font-semibold text-[28px] lg:text-[52px]">
           Travel to make sweet memories
@@ -70,34 +70,27 @@ const SweetMemories = () => {
             alt="swimming"
           />
 
-            <div className="hidden top-[112px] right-[458px] absolute lg:flex bg-[#ffffff85] p-4 rounded-lg w-full lg:max-w-[227px]">
-              <img src="./src/assets/png/tiffany.png" alt="tif" />
-              <div >
-
+          <div className="hidden top-[112px] right-[458px] absolute lg:flex bg-[#ffffff85] p-4 rounded-lg w-full lg:max-w-[227px]">
+            <img src="./src/assets/png/tiffany.png" alt="tif" />
+            <div>
               <p className="font-medium align-middle">Tiffany Miller</p>
               <div className="flex items-center m-auto">
-              <img src="./src/assets/star.svg" alt="star" />
+                <img src="./src/assets/star.svg" alt="star" />
                 <p className="ml-1 font-bold text-gray-600 text-sm">4.6</p>
               </div>
-
-              </div>
-             
             </div>
-         
+          </div>
 
-            <div className="hidden top-[430px] left-[457px] absolute lg:flex bg-[#ffffff85] p-4 rounded-lg w-full lg:max-w-[227px]">
-              <img src="./src/assets/png/amari.png" alt="tif" />
-              <div >
-
+          <div className="hidden top-[430px] left-[457px] absolute lg:flex bg-[#ffffff85] p-4 rounded-lg w-full lg:max-w-[227px]">
+            <img src="./src/assets/png/amari.png" alt="tif" />
+            <div>
               <p className="font-medium align-middle">Amari Reece</p>
               <div className="flex items-center m-auto">
-               <img src="./src/assets/star.svg" alt="star" />
+                <img src="./src/assets/star.svg" alt="star" />
                 <p className="ml-1 font-bold text-gray-600 text-sm">4.9</p>
               </div>
-
-              </div>
-             
             </div>
+          </div>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 const Vacationers = () => {
   return (
-    <div className="flex flex-col items-center mt-[144px] [font-family:var(--font-family-Poppins)]">
+    <div className="flex flex-col items-center mt-[144px] mb-[96px] lg:mb-[144px] [font-family:var(--font-family-Poppins)]">
       <h2 className="font-semibold text-[62px]">What Our Vacationers Says</h2>
       <div className="flex flex-wrap justify-center gap-[79px] mt-[88px]">
         <div className="flex items-center bg-white shadow-lg pt-[56px] pr-[48px] pb-[56px] pl-[152px] rounded-[24px] max-w-[738px]">
