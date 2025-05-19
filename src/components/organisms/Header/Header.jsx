@@ -1,6 +1,6 @@
-import { motion } from "motion/react";
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import {motion} from "motion/react";
+import {useState} from "react";
+import {Link} from "react-router-dom";
 
 const Header = () => {
   const [isServicesOpen, setIsServicesOpen] = useState(false);
@@ -54,15 +54,15 @@ const Header = () => {
                     filter: "brightness(1)",
                   },
                 }}
-                transition={{ duration: 0.3 }}
+                transition={{duration: 0.3}}
               />
             </div>
             <div>
               {isServicesOpen ? (
                 <motion.div
-                  initial={{ opacity: 0, y: -10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.3 }}
+                  initial={{opacity: 0, y: -10}}
+                  animate={{opacity: 1, y: 0}}
+                  transition={{duration: 0.3}}
                   className="z-40 absolute flex flex-col justify-center bg-[var(--color-white)] shadow-[2px_4px_30px_rgba(0,0,0,0.1)] mt-[13px] pl-[32px] rounded-[16px] w-[100%] max-w-[276px] min-h-[212px] font-medium"
                 >
                   <ul className="flex flex-col lg:gap-[32px]">
@@ -103,14 +103,14 @@ const Header = () => {
                     filter: "brightness(1)",
                   },
                 }}
-                transition={{ duration: 0.3 }}
+                transition={{duration: 0.3}}
               />
             </div>
             {isPagesOpen ? (
               <motion.div
-                initial={{ opacity: 0, y: -10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.3 }}
+                initial={{opacity: 0, y: -10}}
+                animate={{opacity: 1, y: 0}}
+                transition={{duration: 0.3}}
                 className="z-40 absolute flex flex-col justify-center bg-[var(--color-white)] shadow-[2px_4px_30px_rgba(0,0,0,0.1)] mt-[13px] pl-[32px] rounded-[16px] w-[100%] max-w-[255px] min-h-[268px] font-medium"
               >
                 <ul className="flex flex-col lg:gap-[32px]">
