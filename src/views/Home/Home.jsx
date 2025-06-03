@@ -1,4 +1,5 @@
-
+import CompanyOffers from "../../components/organisms/CompanyOffers/CompanyOffers";
+import ExploreMore from "../../components/organisms/ExploreMore/ExploreMore";
 import OfferService from "../../components/organisms/OfferService/OfferService";
 import Vacationers from "../../components/organisms/Vacationers/Vacationers";
 const Home = () => {
